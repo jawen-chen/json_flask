@@ -1,0 +1,292 @@
+/*
+
+The Town
+
+https://templatemo.com/tm-525-the-town
+*/
+/* registered_success*/
+html, body {
+  height: 100%; /*外層高度100%*/
+  margin: 0 auto;
+}
+.wrapper{
+  height: 100%;
+  min-height: 100%;
+  margin-bottom: -20px; /*隨footer高度需做調整*/
+}
+.footer{
+  position: relative;
+  bottom:20px;   
+  left: 0;
+  right: 0;
+  height: 30px;
+}
+.content{
+  height: 100%;
+  padding-bottom: 10px;
+  
+}
+
+
+/* registered*/
+
+/* login */
+.site-content{
+  min-height: 100%;
+  height: 100%;
+}
+.re-footer {
+  position: relative;
+  padding-bottom: 50px;
+  left: 0;
+  right: 0;
+  padding: 0 15px;
+  top: -10px;
+  height: 50px;
+}
+
+.other-login-method .btn{
+  padding: 8px 2px;
+}
+.btn-social{
+  border-style:solid ;
+  border-width: 1px;
+  border-color:#e9ecef;
+  vertical-align: middle;
+  width: 350px;
+  margin-top: 0px;
+  position: relative;
+  text-align: left;
+  font-size: 20px;
+  color: #444444;
+}
+.btn-google{
+  position: relative;
+  text-align: left;
+  font-size: 20px;
+}
+.btn-google::before{
+  background-image: url(https://icon-icons.com/icons2/729/PNG/32/google_icon-icons.com_62736.png);
+  display: inline-block;
+  background-size:25px 25px;
+  position: relative;
+  left: 4px;
+  top: 4px;
+  content:"";
+  width: 25px;
+  height: 25px;
+  
+}
+.btn-discord::before{
+  background-image: url(https://icon-icons.com/icons2/2108/PNG/32/discord_icon_130958.png);
+  display: inline-block;
+  background-size:25px 25px;
+  position: relative;
+  left: 4px;
+  top: 4px;
+  content:"";
+  width: 25px;
+  height: 25px;
+}
+.login{
+  padding:0 15px;
+  text-align: center;
+  max-width: 100%;
+  margin:0 auto;
+
+}
+.login-text {
+  max-width: 100%;
+  padding:20px
+}
+.input-group{
+  padding: 5px;
+  max-width: 400px;
+}
+
+.login-wrap{
+  max-width: 100%;
+  padding:15px;
+}
+
+  
+
+.login-wrap .btn--primary{
+  background-color: #337ab7;
+  color: #fff;
+}
+.login-form-text{
+  text-align: left;
+  margin-bottom: 0px;
+}
+
+.login-forgot-password{
+  text-align: right;
+}
+.btn-login{
+  width: 200px;
+}
+.btn-cancel{
+  width: 120px;
+}
+html {
+  font-size: 18px;
+}
+
+body {
+  color: #444444;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+a {
+  transition: all 0.3s ease;
+}
+
+a:hover,
+a:focus {
+  text-decoration: none;
+}
+
+a:focus {
+  outline: none;
+}
+
+.btn {
+  padding: 8px 32px;
+}
+
+.btn:hover {
+  background-color: #ced4da;
+}
+
+/* Navbar */
+
+.tm-navbar {
+  position: fixed;
+  width: 100%;
+  z-index: 1000;
+  background-color: white;
+  border-bottom: 1px solid #e9ecef;
+  transition: all 0.3s ease;
+}
+.tm-navbar2 {
+  position: relative;
+  width: 100%;
+  z-index: 1000;
+  background-color: white;
+  border-bottom: 1px solid #e9ecef;
+  transition: all 0.3s ease;
+}
+
+.tm-navbar.scroll {
+  background-color: white;
+  border-bottom: 1px solid #e9ecef;
+}
+
+.navbar-brand {
+  color: #444444;
+  font-size: 1.4rem;
+  font-weight: bold;
+  
+  
+}
+
+.navbar-brand:hover,
+.tm-navbar.scroll .navbar-brand:hover {
+  color: #3496d8;
+}
+
+.tm-navbar.scroll .navbar-brand {
+  color:  #8f8f8f;
+  text-shadow: 0px 0px 0px #8f8f8f;
+}
+
+.nav-item {
+  list-style: none;
+}
+
+.tm-nav-link {
+  color: #444444;
+}
+
+
+.tm-navbar.scroll .tm-nav-link {
+  color: #8f8f8f;
+  text-shadow: 0px 0px 0px #8f8f8f;
+}
+
+.tm-navbar.scroll .tm-nav-link:hover,
+.tm-navbar.scroll .tm-nav-link.current,
+.tm-nav-link:hover {
+  color: #3496d8;
+}
+
+.navbar-toggler {
+  border: 1px solid white;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.navbar-toggler-icon {
+  color: white;
+  padding-top: 6px;
+}
+
+.tm-navbar.scroll .navbar-toggler {
+  border: 1px solid #8f8f8f;
+}
+
+.tm-navbar.scroll .navbar-toggler-icon {
+  color: #8f8f8f;
+}
+
+.tm-footer {
+  position: absolute;
+  
+  left: 0;
+  right: 0;
+  padding: 0 15px;
+}
+
+p {
+  line-height: 1.9;
+}
+
+@media (min-width: 768px) {
+  .tm-intro-text-container {
+    padding-left: 65px;
+  }
+
+  .navbar-expand-md .navbar-nav .nav-link {
+    padding-right: 30px;
+    padding-left: 30px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1275px;
+  }
+
+@media (max-width: 767px) {
+
+  .navbar-nav {
+    max-width: 200px;
+    text-align: right;
+  }
+
+  .navbar-collapse {
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    border-radius: 3px;
+  }
+
+  .navbar-collapse .nav-link {
+    color: #444444;
+  }
+  .navbar-collapse2 .nav-link2 {
+    color: #444444;
+  }
+}
+}
